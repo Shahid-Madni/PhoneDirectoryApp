@@ -29,6 +29,14 @@ public:
         }
     }
 
+    string getFirstName() const {
+        return firstName;
+    }
+
+    string getLastName() const {
+        return lastName;
+    }
+
     string getMobile() const {
         return mobile;
     }
